@@ -105,6 +105,12 @@ body {
   font-size: 1.6rem;
 }
 
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+  background-color: #2e2e2e;
+}
+
 .burger-btn {
   position: fixed;
   top: 20px;
@@ -230,6 +236,12 @@ body {
 .nav-items-animation {
   -webkit-animation: navItemsAnimation 1s both;
           animation: navItemsAnimation 1s both;
+}
+
+.black-bars-color,
+.black-bars-color::after,
+.black-bars-color::before {
+  background-color: #2e2e2e;
 }
 
 .header {
@@ -763,6 +775,19 @@ body {
   }
   .footer__box:first-child {
     width: 50%;
+  }
+  .footer__box-title {
+    font-size: 2.4rem;
+  }
+  .footer__box-list {
+    list-style: none;
+  }
+  .footer__box-list-item {
+    margin: 1em;
+  }
+  .footer__box-list-item a {
+    color: #fff;
+    text-decoration: none;
   }
 }
 @media (min-width: 992px) {
